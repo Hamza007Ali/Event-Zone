@@ -1,0 +1,543 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600&display=swap');
+
+
+.nav-bar .nav-logoa img{
+    max-width: 130px;
+}
+.nav-bar{
+    height: 70px;
+    z-index: 9999;   
+}
+.spacing-common{
+    padding-left: 32px;
+    padding-right: 26px;
+}
+.common-width{
+    width: 98.666667%;
+}
+body{
+    font-family: 'Open Sans',"sans-serif";
+    line-height: 1.5;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0.3em 0.9em;
+    border-bottom: 3px solid transparent;
+    color: #9b9b9b !important;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+.nav-list li a:hover{
+    border-bottom: 3px solid #4cafe6;
+    cursor: pointer;
+    color: #000 !important;
+}
+.hero-main{
+    min-height: 900px;
+    padding-top: 70px;
+}
+.hero-content-main .width-one h4{
+  font-weight: inherit;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+.hero-content-main .width-one h2{
+    font-weight: inherit;
+    font-size: 2.25rem;
+    letter-spacing: -1px; 
+  }
+  .hero-content-main .width-one h1{
+    font-size: 2.25rem;
+    letter-spacing: -1px;
+  }
+  .hero-content-main .width-one p{
+    font-size: 1.25rem;
+    letter-spacing: -1px;
+  }
+.hero-content-main .width-one span{
+    color: #ed4936;
+}
+ .hero-content-main .btn-overview{
+    background-color: #212121;
+    color: #f2f2f2;
+    border: 1px solid #ececec;
+} 
+.hero-content-main .width-one{
+    width: 41.666667%;
+}
+.form-main{
+    width: 37.666667%;
+    padding-right: 10px !important;
+}
+.form-main .form-bottom .form-upper h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.form-main .form-bottom .form-upper p{
+    font-size: .75rem;
+}
+.form-main form{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 2px rgb(0 0 0 / 10%);
+    color: #666;  
+}
+.form-sec {
+    background-color: #efefef;    
+}
+.form-sec .btn-contact{
+    background-color: #4299e1;
+    font-family: inherit !important;
+    font-weight: 700;
+}
+.btn-contact:hover{
+    background-color: #2b6cb0;
+    cursor: pointer;
+}
+.form-bottom input, .form-bottom textarea {
+    width: 100%;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #666;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.error-p {
+    min-height: 12px;
+}
+.priv-polc a{
+    text-decoration: none;
+    color: #4299e1;
+}
+/* ===========================cards  section start here ================================ */
+.cards-main{
+    background-color: #f6f8f9;
+}
+.cards-main .card{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border: none;
+}
+.cards-main .card {
+    width: 20% !important;
+}
+.cards-main .card img{
+    width: 35%;
+}
+.card .card-body .card-text{
+    font-size: .75rem;
+}
+.card-body .spc{
+    letter-spacing: -0.5px;
+}
+/* ================================mouth marketing section start here =================== */
+.main-spacing{
+    padding-left: 34px;
+    padding-right: 34px;   
+}
+.m-m-img img{
+    width: 77%;
+}
+.m-m-txt {
+    width: 77%;
+}
+.mouth-marketing-main .m-m-txt h1{
+    color: #68b8ed; 
+    font-size: 1.875rem;
+}
+.mouth-marketing-main .m-m-txt h2{
+    font-size: 1.875rem;
+}
+.mouth-marketing-main .m-m-txt .txt-m1{
+    color: #595959;
+    width: 92%;
+}
+.mouth-marketing-main .m-m-txt .txt-m2{
+    width: 85%;
+    font-size: 1.125rem;
+}
+/* ===============================creative main section start here ===================== */
+.creative-main{
+    background-color: #f6f8f9;  
+}
+.creative-first-txt strong{
+    color: #ed4936;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.creative-first-txt h1{
+    color: #ed4936;
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+.creative-right img{
+    width: 60%;
+}
+.creative-first > div{
+    margin-right: -25px;
+}
+/* ========================================croud section start here ================= */
+.croud-first-txt strong{
+    color: #77933c;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.croud-first-txt h1{
+    color: #77933c;
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+.croud-right img{
+    width: 60%;
+    margin-left: -50px;
+}
+.croud-first > div{
+    margin-right: -25px;
+}
+/* ========================================deoploy  section start here ================= */
+.deploy-main{
+  background-color: #f6f8f9;   
+}
+.deploy-first-txt strong{
+    color: #0070c0;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.deploy-first-txt h1{
+    color: #0070c0;
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+.deploy-first > div{
+    margin-right: -25px;
+}
+.deploy-sec .deploy-img-sec img{
+    width: 80%;
+    margin: auto;
+}
+.deploy-img-sec{
+    margin-top: 5rem;
+}
+/* ========================================tracking section strat here ==================== */
+.tracking-first-txt h1{
+    color: #7030a0;
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+.tracking-right img{
+    width: 70%;
+}
+.tracking-first >div{
+    margin-right: -25px;
+}
+/* ===================================footer section start here ======================== */
+.footer-section-main .pro{
+    color: #dadada;
+    border: 2px solid #ed4936;   
+}
+.footer-section-main .footer-content .f-img img{
+    width: 80px;
+    height: 80px;     
+}
+.footer-section-main .footer-content .f-txt p{
+    color: #dadada; 
+}
+.footer-spacing{
+    padding-left: 36px;
+    
+}
+.footer-section-main .pro2{
+    color: #dadada;
+    border: 2px solid #fdad24; 
+}
+.footer-section-main .pro3{
+    color: #dadada;
+    border: 2px solid #0070c0;
+}
+/* =====================================footer baseline ================================= */
+.footer-base-main{
+
+    background: #2a2f33;
+    height: 15vh;
+}
+.footer-base-main .ftr-left img{
+    width:30%;
+}
+.footer-base-main .ftr-left p{
+    color: #4a4b47;
+    font-size: .75rem;
+}
+.ftr-right ul a{
+    text-decoration:inherit;
+    color: #a6a6a6;  
+}
+/* ===================================event zone home page css start here ==================== */
+.spacing-common-home{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.home{
+    min-height: 70px;
+}
+nav .nav-logo img{
+    width: 50px;
+}
+.home .nav-btn button{
+    background-color: #4cafe6;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 30px;
+    font-weight: 400;
+}
+.nav-logo p{
+    font-size: .875rem;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.distance-strip{
+    height: 60px;
+    border: 1px solid #ededed;
+    background: #1b2161;
+}
+.distance-btn button{
+    background-color: #181d53;
+    height: 100%;
+    border: none;
+}
+.distance-btn {
+    height: 100%;
+}
+.distance-btn button img{
+    width: 20px;
+}
+.distance-strip .coach-btn button{
+    background-color: #2b4170;
+    background: -webkit-linear-gradient(top,#3b5998,#2b4170);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #fff!important;
+    font-size: 12px;
+  
+}
+.distance-strip .coach-btn button:hover{
+    background: -webkit-linear-gradient(top,#2b4170,#3b5998);
+}
+.conversation-btn{
+    height: 60px;
+}
+.conversation-btn button{
+    background: #45b168;
+    padding: 4px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+.distance-dropdown{
+    top: 129px;
+    width: 410px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    z-index: 2;
+    display: none;
+}
+.distance-dropdown .list-items{
+    padding: 5px 11px;
+    margin-left: 0;
+    margin-right: 3px;
+    border-radius: 10px;
+    color: #fff;
+}
+.distance-dropdown ul li{
+    padding: 13px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.distance-dropdown ul li > div p{
+    padding-left: 1.25rem; 
+}
+/* ==================================cards section start here ============================== */
+.cards-m{
+    margin: 2.5rem 2rem 2.5rem 2rem;
+}
+.cards-home-main{
+    background-color: #eef2f5;
+}
+.card-img-center {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-card{
+    background-color: #fff;
+    box-shadow: -1px 1px 20px 0 rgb(0 0 0 / 20%);
+    min-height: 400px;
+    height: 100%;
+    width: 300px;
+}
+.cards-home-main .home-card img{
+   
+    width: 100%;
+}
+.h-c-logo > div .btn-1{
+    border-radius: 5rem;
+    font-size: .75rem;
+}
+.h-c-logo .twitter-div .btn-2{
+    width: 30px;
+    height: 31px;
+    background-color: #2daae2;
+    border-radius: 50%;
+    border: none;
+}
+.res-list{
+    display: none;
+}
+.responsive-nav{
+    visibility: hidden;
+}
+@media (max-width: 479px) and (min-width: 320px) { 
+    .spacing-common-home {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .coach-btn button{
+        padding: 0px !important;
+    }
+    .responsive-nav{
+        visibility: visible;
+    }
+    .nav-bar {
+        visibility: hidden;
+    }
+    .common-width{
+        width: 100%;
+    }
+    .hero-content-main .width-one{
+        width: unset;
+    }
+    .form-main{
+        width: 100% !important;
+        padding: 15px;
+    }
+    .cards-main .card {
+        width: 100% !important;
+    }
+    .footer-base-main .ftr-left img {
+        width: 75%;
+    }
+    .footer-base-main{
+        height: 31vh;
+    }
+}
+@media (max-width: 567px) and (min-width: 480px) {
+    .spacing-common-home {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .coach-btn button{
+        padding: 0px !important;
+    }
+ }
+ @media (max-width: 684px) and (min-width: 568px) {
+    .home-card{
+        width: 100%;  
+    }
+    .spacing-common-home {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .coach-btn button{
+        padding: 0px !important;
+    }
+    .width-one{
+        width: 100% !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .form-main{
+        padding: 48px !important;
+        margin: 0px !important;
+    }
+    .cards-main .card{
+        width: 100% !important;
+    }
+    .cards-main .card img {
+        width: 15%;
+    }
+    .m-m-img img {
+        width: 70%;
+    }
+  } 
+  @media (max-width: 767px) and (min-width: 685px) {
+    .home-card{
+        width: 100%;  
+    }
+    .spacing-common-home {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .coach-btn button{
+        padding: 0px !important;
+    }
+   } 
+@media (max-width: 991px) and (min-width: 768px) {
+   
+    .nav-bar{
+        visibility: hidden;
+    }
+    .responsive-nav{
+        visibility: visible;
+    }
+    .spacing-common-home {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .form-main { 
+        width: 100% !important;
+        padding: 10px !important;
+    }
+    .hero-content-main .width-one {
+        width: 100%;
+    }
+    .cards-main .card {
+        width: 100% !important;
+    }
+    .cards-main .card img {
+        width: 17%;
+    }
+    .footer-base-main .ftr-left img {
+        width: 40%;
+    }
+ } 
+  @media (max-width: 1199px) and (min-width: 1024px) { 
+   
+    .spacing-common-home {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .m-m-img img {
+        width: 100%;
+    }
+    .footer-base-main .ftr-left img {
+        width: 50%;
+    }
+  } 
+
+
+
+
+  
